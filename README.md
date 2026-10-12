@@ -1,6 +1,6 @@
-# Tradução PT ↔ EN
+# ViraLíngua
 
-Extensão para Chrome no computador. Selecione uma palavra ou frase curta numa página e veja a tradução ao lado.
+**Português ↔ Inglês.** Extensão para Chrome no computador. Selecione uma palavra ou frase curta numa página e veja a tradução ao lado.
 
 ## Instalar
 
@@ -8,7 +8,7 @@ Extensão para Chrome no computador. Selecione uma palavra ou frase curta numa p
 2. Ative **Modo do desenvolvedor**, no canto superior direito.
 3. Clique em **Carregar sem compactação**.
 4. Escolha esta pasta, que contém `manifest.json`.
-5. No menu de extensões (ícone de quebra-cabeça), fixe **Tradução PT ↔ EN** se desejar.
+5. No menu de extensões (ícone de quebra-cabeça), fixe **ViraLíngua** se desejar.
 6. Recarregue as páginas que já estavam abertas antes da instalação.
 
 ## Usar
@@ -25,6 +25,17 @@ Marque um texto com o mouse ou com Shift + setas. A caixa mostra o original, a d
 - Cada seleção aceita até **500 bytes UTF-8**: letras com acento podem ocupar mais de um byte. Textos maiores não são enviados.
 - Funciona em páginas HTTP/HTTPS, incluindo frames compatíveis. Páginas internas do Chrome, Chrome Web Store, PDFs e arquivos locais não são suportados. Campos de formulário e áreas editáveis são ignorados.
 - A permissão de acesso às páginas permite detectar a seleção e mostrar a caixa. A permissão de armazenamento salva a direção e a ativação; o acesso de rede é restrito à API MyMemory.
+
+## Marca e imagens
+
+A identidade da **ViraLíngua** usa azul `#245BD6` e dois balões de conversa com setas em sentidos opostos. O nome usa a grafia **ViraLíngua**, com acento no **í**. A descrição complementar é **Português ↔ Inglês**.
+
+- Logo horizontal com fundo transparente: `assets/brand/viralingua-logo.png` (1200 × 420).
+- Símbolo com fundo transparente: `assets/brand/viralingua-symbol.png` (1024 × 1024).
+- Ícones sem texto, com fundo transparente: `assets/icons/icon-16.png`, `icon-32.png`, `icon-48.png` e `icon-128.png`.
+- Os arquivos SVG editáveis estão em `assets/brand`. O logo usa Segoe UI Bold no nome e Segoe UI na descrição.
+
+O nome foi escolhido para este projeto; a disponibilidade comercial ainda não foi verificada. Estes materiais não representam publicação ou aprovação na Chrome Web Store.
 
 ## Desenvolvimento e verificação
 

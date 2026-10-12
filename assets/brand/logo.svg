@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <title>ViraLíngua — Português ↔ Inglês</title>
+  <desc>Logo horizontal com dois balões de conversa azuis, setas em sentidos opostos e o nome ViraLíngua.</desc>
+  <g transform="translate(16 30) scale(2.8125)">
+    <g fill="#245BD6">
+      <path d="M28 16h72a12 12 0 0 1 12 12v14a12 12 0 0 1-12 12H40L28 62v-8a12 12 0 0 1-12-12V28a12 12 0 0 1 12-12Z"/>
+      <path d="M28 66h72a12 12 0 0 1 12 12v14a12 12 0 0 1-12 12v8l-12-8H28a12 12 0 0 1-12-12V78a12 12 0 0 1 12-12Z"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 35h44m-8-8 8 8-8 8"/>
+      <path d="M88 85H44m8-8-8 8 8 8"/>
+    </g>
+  </g>
+  <text x="412" y="226" fill="#245BD6" font-family="Segoe UI, Arial, sans-serif" font-size="148" font-weight="700" letter-spacing="-5">ViraLíngua</text>
+  <text x="420" y="295" fill="#52627D" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="400">Português ↔ Inglês</text>
+</svg>
