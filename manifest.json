@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Tradução PT ↔ EN",
+  "version": "1.0.0",
+  "description": "Traduza palavras e frases selecionadas entre português e inglês.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.mymemory.translated.net/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Tradução PT ↔ EN", "default_popup": "popup.html" },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle",
+    "all_frames": true
+  }]
+}

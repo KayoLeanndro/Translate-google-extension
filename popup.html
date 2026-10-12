@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tradução PT ↔ EN</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><span class="mark" aria-hidden="true">Aa</span><div><h1>Tradução rápida</h1><p>Português ↔ Inglês</p></div></header>
+  <label class="toggle"><span>Traduzir ao selecionar</span><input id="enabled" type="checkbox" checked></label>
+  <label for="direction">Direção da tradução</label>
+  <select id="direction"><option value="pt-en">Português → Inglês</option><option value="en-pt">Inglês → Português</option></select>
+  <p class="help">Marque uma palavra ou frase numa página para ver a tradução ao lado.</p>
+  <p class="privacy">O texto selecionado é enviado ao MyMemory. Requer internet e está sujeito aos limites gratuitos do serviço.</p>
+  <p id="status" role="status" aria-live="polite"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
